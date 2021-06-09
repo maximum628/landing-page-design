@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page</title>
+    <style>
+        .center-slick img{
+            opacity: .8;
+            transition: .5s;
+        }
+        .center-slick .slick-center img{
+            opacity: 1;
+            transform: scale(1.8);
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-sm bg-white fixed-top navbar-height">
+
+        <div class="navbar-top">
+            <div class="container" style="display: block;">
+                <div class="row">
+                    <div class="col-12 d-flex justfy-content">
+                        <img src="images/logo.png" class="main-logo">
+                        <div class="header-right d-flex">
+                            <!-- Another variation with a button -->
+                            <div class="input-group mt-4 mr-2">
+                                <input type="text" class="form-control">
+                                <div class="input-group-append">
+                                <button class="btn btn-primary btn-search" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                                </div>
+                            </div>
+                            <div class="bovag-logo-pos mr-10">
+                                <img src="images/bovag-logo.jpg" class="bovag-logo">
+                            </div>
+                            <div class="bovag-logo-pos">
+                                <img src="images/zeg-logo.png" class="bovag-logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="navbar-nav navbar-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#over_ons">OVER ONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#merken">MERKEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fietsen">FIETSEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lease">LEASE EEN FIETS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            
+        </ul>
+    </nav>
+  
+    <div id="demo" class="carousel slide mt-100" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner.jpg" alt="Los Angeles" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner.jpg" alt="Chicago" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner.jpg" alt="New York" width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="home" class="home-section">
+                    <p>ONZE WERKPLAATS IS EN BLIJFT GEOPEND VOOR REPARATIE & ONDERHOUD GEDURENDE LOCKDOWN. U BENT VAN HARTE WELKOM.</p>
+                    <p class="warning-text">UITSLUITEND GEOPEND VOOR REPARATIE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="over_ons" class="over-ons-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12" style="text-align: center;">
+                    <img src="images/many-bicycles.jpg" class="img-content">
+                </div>
+
+                <div class="col-lg-6 col-md-12 ">
+                    <div class="right-section">
+                        <div class="mb-over-ons">
+                            <span class="over-text">OVER</span>
+                            <span class="ons-text">ONS</span>
+                        </div>
+                        <div class="mb-over-ons">
+                            Nobel Tweewielers is een familiebedrijf, dat in 1936 in Amsterdam gestart is. Inmiddels heeft de derde generatie het roer in handen. In al die jaren is er natuurlijk veel veranderd, maar nog steeds staan kwaliteit en de wensen van de klant centraal in ons bedrijf. Het zijn juist deze klassieke uitgangsputen die maken dat het bedrijf modern blijft.
+                        </div>
+                        <a href="#" class="btn-lees-meer">Lees Meer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">   
+        <div class="row">
+            <div class="col-12">
+                <div id="merken" class="merken-section">
+                    <div class="merken-content">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="merken-card">
+                                    <img src="images/fietsen.jpg" class="merken-image">
+                                    <div class="merken-bottom">
+                                        <div class="merken-title">
+                                            FIETSEN
+                                        </div>
+                                        <p class="merken-text">
+                                            Bekijk hier onze fietsen aanbod. Wij hebben de nieuwste modellen van alle bekende fietsenmerken. Bij ons slaagt u er altijd in om een fiets te vinden die helemaal bij u past. Kom langs en ervaar het zelf…
+                                        </p>
+    
+                                        <div class="merken-button">
+                                            Lees Meer
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="merken-card">
+                                    <img src="images/werkplaats.jpg" class="merken-image">
+                                    <div class="merken-bottom">
+                                        <div class="merken-title">
+                                            Werkplaats
+                                        </div>
+                                        <p class="merken-text">
+                                            In onze werkplaats doen wij grote en kleine reparaties aan alle soorten fietsen. Daarnaast passen wij uw fiets graag aan uw wensen aan. Heeft u bijvoorbeeld problemen met uw versnellingen, banden, zadel of iets anders…
+                                        </p>
+    
+                                        <div class="merken-button">
+                                            Lees Meer
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="merken-card">
+                                    <img src="images/lease.jpg" class="merken-image">
+                                    <div class="merken-bottom">
+                                        <div class="merken-title">
+                                            Lease een fiets
+                                        </div>
+                                        <p class="merken-text">
+                                            Vanaf 1 januari 2015 kwam het huidige fietsplan te vervallen. Vanaf die datum valt het fietsplan namelijk onder de werkkostenregeling (WKR). Gelukkig heeft Fietsvakshop de ultieme oplossing; Het Leasefiets plan.
+                                        </p>
+    
+                                        <div class="merken-button">
+                                            Lees Meer
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="fietsen" class="fietsen-section">
+                    <div class="fietsen-center">
+                        <div class="fietsen-title">EEN GREEP UIT ONZE COLLECTIE</div>
+                    </div>
+                    <div class="center-slick" style="width: 80%;margin:0 auto;">
+                        <div class="slick-image">
+                            <img src="images/bicycle-1.png" class="merken-image">
+                            <div>GIANT TRIPLE X E+1 METALLIC ANTRACITE</div>
+                        </div>
+                        <div class="slick-image">
+                            <img src="images/bicycle-2.png" class="merken-image">
+                            <div>PACKED E GO</div>
+                        </div>
+                        <div class="slick-image">
+                            <img src="images/bicycle-3.png" class="merken-image">
+                            <div>GIANT DAILYTOUR</div>
+                        </div>
+                        <div class="slick-image">
+                            <img src="images/bicycle-1.png" class="merken-image">
+                            <div>GIANT TRIPLE X E+1 METALLIC ANTRACITE</div>
+                        </div>
+                        <div class="slick-image">
+                            <img src="images/bicycle-2.png" class="merken-image">
+                            <div>PACKED E GO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="lease" class="lease-section">
+                    <div class="lease-box">
+                        <img src="images/back-1-arrow.png" class="lease-image">
+                        <div class="lease-text-content">
+                            <p class="ons-text">NIEUW</p>
+                            <p class="warning-text" style="letter-spacing: -0.4px;">DE BOSCH E-BIKE ACTERADIUS CALCULATOR</p>
+                            <p>Klik hier om de actieradius van uw Bosch E-bike te berekenen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 ">
+                    <div class="right-section contact-box">
+                        <div class="mb-over-ons">
+                            <span class="ons-text" style="color: red;">CONTACT</span>
+                        </div>
+                         
+                        <div class="mb-over-ons">
+                            <div>Tel: 020 - 4171441</div>
+                            <div>Sierplein 1, 1065 LM Amsterdam</div>
+                            <div>Nobel Tweewielers</div>
+                        </div>
+                        <div class="mb-over-ons">
+                            <div>E-mail: <span style="color: blue;">info[at]nobeltweewielers.nl</span></div>
+                            <div>Website: <span style="color: blue;">www.nobeltweewielers.nl</span></div>
+                        </div>
+                        <img src="images/facebook-icon.png" class="facebook-image"><span>Join Us</span>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <img src="images/contact-bicycle.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 ">
+                    <div class="right-section contact-box">
+                        <div style="margin-bottom: 20px;">
+                            <span class="ons-text bottom-title">CONTACT</span>
+                        </div>
+                        <img src="images/zeg-logo.jpg" class="merken-image">
+                        <div style="color: white;">'Nobel Tweewielers is aangesloten bij de grootste leverancier van fiets- en fiets onderdelen van Europa.'</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 ">
+                    <div class="right-section contact-box">
+                        <div style="margin-bottom: 20px;">
+                            <span class="ons-text bottom-title">CONTACT</span>
+                        </div>
+                        <img src="images/anwb-logo.png" class="merken-image">
+                        <div style="color: white; margin-top: -15px;">Klik hier om snel online uw fietsverzekeringspremie te berekenen.</div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 ">
+                    <div class="right-section contact-box">
+                        <div style="margin-bottom: 20px;">
+                            <span class="ons-text bottom-title">CONTACT</span>
+                        </div>
+                        <div style="color: white;">
+                            <div class="row">
+                                <div class="col-6">
+                                    Maandag:
+                                </div>
+                                <div class="col-6">
+                                    Gesloten
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Dinsdag:
+                                </div>
+                                <div class="col-6">
+                                    9.00 - 18.00uur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Dinsdag:
+                                </div>
+                                <div class="col-6">
+                                    9.00 - 18.00uur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Woensdag:
+                                </div>
+                                <div class="col-6">
+                                    9.00 - 18.00uur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Donderdag:
+                                </div>
+                                <div class="col-6">
+                                    9.00 - 18.00uur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Zaterdag:
+                                </div>
+                                <div class="col-6">
+                                    9.00 - 17.00uur
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    Zondag:
+                                </div>
+                                <div class="col-6">
+                                    Gesloten
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">© Copyright Nobel Tweewielers 2021</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="styles/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.center-slick').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '140px',
+                        slidesToShow: 1
+                    }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
